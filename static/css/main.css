@@ -10,7 +10,7 @@
   color: #b7b7b7 !important;
 }
 .accent {
-  color: #2eaf5e !important;
+  color: #9c2d31 !important;
 }
 @media (min-width: 550px) {
   .small-screens-only {
@@ -108,7 +108,7 @@ body {
     padding: 0 16px;
     margin-left: 100px;
     margin-right: 100px;
-    max-width: 900px;
+    max-width: 750px;
   }
 }
 .section.header {
@@ -485,7 +485,7 @@ body {
   }
 }
 a {
-  color: #2eaf5e;
+  color: #9c2d31;
 }
 img {
   max-width: 100%;
