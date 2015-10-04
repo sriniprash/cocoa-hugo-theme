@@ -5,7 +5,9 @@
         <div class="content">
             <div class="front-matter">
                 <div class="title-container">
-                    <div class="page-heading"><a href="{{ .Permalink }}">{{ partial "page-heading.html" . }}</a></div>
+                    <div class="page-heading">
+                        <a href="{{ .Permalink }}">{{ if .Params.heading }}{{ .Params.heading }}{{ else }}{{ .Title }}{{ end }}</a>
+                    </div>
                     <div class="initials"><a href="{{ .Site.BaseUrl }}">{{ .Site.Params.Initials }}</a></div>
                 </div>
                 <div class="meta">
