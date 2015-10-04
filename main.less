@@ -344,6 +344,24 @@ body {
     .content {
         color: @black;
         font-size: @base-font-size;
+        
+        .title-container {
+            .flex-display();
+            .justify-content(space-between);
+
+            .initials {
+                .heading();
+                color: @gray;
+
+                a {
+                    color: @gray;
+
+                    &.hover {
+                        color: @black;
+                    }
+                }
+            }
+        }
 
         .page-heading {
             .heading();
@@ -513,6 +531,10 @@ a {
 
 img {
     max-width: 100%;
+}
+
+.page-heading a {
+    color: @black;
 }
 
 @import 'markdown';
