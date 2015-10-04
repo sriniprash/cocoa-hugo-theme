@@ -108,6 +108,10 @@ body {
     body {
         .justify-content(center); // vertically center all sections
     }
+
+    .narrow {
+        display: none !important;
+    }
 }
 
 // Ionicon classes
@@ -350,13 +354,14 @@ body {
             .justify-content(space-between);
 
             .initials {
+                display: none;
                 .heading();
                 color: @gray;
 
                 a {
                     color: @gray;
 
-                    &.hover {
+                    &:hover {
                         color: @black;
                     }
                 }
@@ -402,6 +407,12 @@ body {
         .content {
             .front-matter {
                 .date, .word-count, .reading-time .middot {
+                    display: initial;
+                }
+            }
+
+            .title-container {
+                .initials {
                     display: initial;
                 }
             }
