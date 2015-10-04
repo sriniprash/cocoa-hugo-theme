@@ -361,6 +361,10 @@ body {
 }
 .section.main .content .title-container .initials a {
   color: #b7b7b7;
+  -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
+  -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
+  -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
+  -o-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 .section.main .content .title-container .initials a:hover {
   color: #333333;
