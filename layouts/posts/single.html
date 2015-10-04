@@ -6,7 +6,7 @@
             <div class="front-matter">
                 <div class="title-container">
                     <div class="page-heading"><a href="{{ .Permalink }}">{{ partial "page-heading.html" . }}</a></div>
-                    <div class="initials"><a href="{{ .Config.BaseUrl }}">{{ .Config.Params.Initials }}</a></div>
+                    <div class="initials"><a href="{{ .Site.BaseUrl }}">{{ .Site.Params.Initials }}</a></div>
                 </div>
                 <div class="meta">
                     <div class="date">{{ .Date.Format .Site.Params.DateForm }}</div>
